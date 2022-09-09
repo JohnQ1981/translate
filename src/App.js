@@ -7,7 +7,7 @@ const App =() => {
  
     return (
         <div className="ui container comments">
-         <ApprovalCard />
+         <ApprovalCard>
         <CommentDetail 
         authorName ={faker.name.fullName()} 
         timeAgo='Today at 5:45 pm' 
@@ -15,6 +15,7 @@ const App =() => {
         imageSrc={faker.image.avatar()} 
         txt="Nice Blog post!" 
         city={faker.address.city()}/>
+        </ApprovalCard>
         
         <CommentDetail  
         authorName ={faker.name.fullName()} 
