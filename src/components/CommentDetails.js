@@ -19,21 +19,6 @@ const CommentDetail = (props) => {
           <a href="/" className="author">
             Music:{props.authorsMusic}
           </a>
-<<<<<<< HEAD
-          <div className="content">
-            <a href="/" className="author">
-            {props.authorName} likes <AuthorNames />
-              
-            </a>
-            <div className="metadata">
-              <span className="date">{props.timeAgo} on {props.mnth}</span>
-            </div>
-            <div className="text">{props.txt}</div>
-            
-            <div>City Author Lives in : {props.city}</div>
-          </div>
-=======
->>>>>>> 500a322227153b224ec70933a0571b1e98a13b38
         </div>
 
         <div className="metadata">
