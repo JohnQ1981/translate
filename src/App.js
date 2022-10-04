@@ -58,7 +58,6 @@ const App =() => {
             city={faker.address.city()}
             authorsAnimal={faker.animal.cat()}     />
         </ApprovalCard>
-
         
         <ApprovalCard>
             <CommentDetail  
