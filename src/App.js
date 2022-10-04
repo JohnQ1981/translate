@@ -16,6 +16,7 @@ const App =() => {
         txt="Nice Blog post!" 
         city={faker.address.city()}/>
         </ApprovalCard>
+
         
         <CommentDetail  
         authorName ={faker.name.fullName()} 

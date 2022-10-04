@@ -22,7 +22,7 @@ const CommentDetail = (props) => {
             </div>
             <div className="text">{props.txt}</div>
             
-            <div>City Auther Lives in : {props.city}</div>
+            <div>City Author Lives in : {props.city}</div>
           </div>
         </div>
 
