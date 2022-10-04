@@ -11,6 +11,7 @@ const ApprovalCard = (props) => {
           <div className="ui basic red button">Reject</div>
         </div>
       </div>
+      
     </div>
   );
 };
